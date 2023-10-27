@@ -1,0 +1,56 @@
+{
+    "name": "input map",
+    "maps": [
+        {
+            "name": "player",
+            "id": "8b381389-828a-4671-8467-328ffd6dd6c8",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "b8ad58a1-eeb8-4b30-94cb-a5172eeccf54",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "X Axis",
+                    "id": "370584dd-48e5-4602-9d22-742fa07f561a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "c995c81d-becd-447e-8b0d-5470dbbdb15e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "49195780-2de8-44e8-abfb-3d2465c7339e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
